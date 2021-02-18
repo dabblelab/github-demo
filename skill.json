@@ -1,0 +1,109 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template fifty four",
+            "Alexa start template fifty four",
+            "Alexa launch template fifty four"
+          ],
+          "keywords": [],
+          "name": "template fifty four",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:395001725986:function:a7768c59-3dbe-4a3e-9708-eceadde9d4b7:Release_0"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "minHeight": 540,
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "maxHeight": 540,
+                "minWidth": 960,
+                "maxWidth": 960
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "ROUND",
+                "maxHeight": 480,
+                "minWidth": 480,
+                "maxWidth": 480
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 600,
+                "minWidth": 1024,
+                "maxWidth": 1024
+              },
+              {
+                "minHeight": 800,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 800,
+                "minWidth": 1280,
+                "maxWidth": 1280
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 480,
+                "minWidth": 960,
+                "maxWidth": 960
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:395001725986:function:a7768c59-3dbe-4a3e-9708-eceadde9d4b7:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:395001725986:function:a7768c59-3dbe-4a3e-9708-eceadde9d4b7:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:395001725986:function:a7768c59-3dbe-4a3e-9708-eceadde9d4b7:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {},
+        "en-CA": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      }
+    }
+  }
+}
